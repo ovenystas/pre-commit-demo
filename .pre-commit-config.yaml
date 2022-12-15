@@ -13,7 +13,7 @@ repos:
       - id: check-shebang-scripts-are-executable
       - id: check-merge-conflict
       - id: file-contents-sorter
-        files: ^.gitignore$
+        files: "^.gitignore$"
       - id: requirements-txt-fixer
 
   - repo: https://github.com/psf/black
@@ -35,3 +35,9 @@ repos:
     rev: v3.0.0-alpha.4
     hooks:
       - id: prettier
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.2
+    hooks:
+      - id: codespell
+        args: ["--write-changes"]

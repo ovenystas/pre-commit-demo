@@ -4,7 +4,7 @@ A git repository for demo of pre-commit.
 
 ## Setup environment
 
-This repo is best used with a Python Virtual Environment. Create it using theese commands:
+This repo is best used with a Python Virtual Environment. Create it using these commands:
 
 ```bash
 python -m venv venv-demo
