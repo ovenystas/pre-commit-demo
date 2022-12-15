@@ -1,4 +1,10 @@
+"""Hello world example.
+"""
+
+
 def main():
+    """Main function."""
+
     print("Hello, Python world!")
 
 

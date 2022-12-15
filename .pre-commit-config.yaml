@@ -19,3 +19,8 @@ repos:
     rev: v3.3.1
     hooks:
     -   id: pyupgrade
+
+-   repo: https://github.com/PyCQA/pylint
+    rev: v2.15.8
+    hooks:
+    -   id: pylint
