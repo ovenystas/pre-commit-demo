@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-gcc main.c -o hello_c_world
-g++ main.cpp -o hello_cpp_world
+gcc hello_world.c -o hello_c_world
+g++ hello_world.cpp -o hello_cpp_world
