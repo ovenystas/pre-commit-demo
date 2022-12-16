@@ -12,9 +12,26 @@ This repo is best used with a Python Virtual Environment. Create it using these 
 ```bash
 python -m venv venv-demo
 source venv-demo/bin/activate
+```
+
+### Install Python modules
+
+```bash
 python -m pip install -r requirements.txt
 ```
 
-## Pre-commit
+### Install Pre-commit Git hook
 
-This repo is pre-commit enabled.
+This repo uses pre-commit git hook. Install it inside the Python Virtual environment with:
+
+```bash
+pre-commit install
+```
+
+## Run pre-commit
+
+Run all configured pre-commit hooks on all files in the repo.
+
+```bash
+pre-commit run --all-files
+```
