@@ -47,6 +47,11 @@ repos:
       - id: codespell
         args: ["--write-changes"]
 
+  - repo: https://github.com/lovesegfault/beautysh
+    rev: v6.2.1
+    hooks:
+      - id: beautysh
+
   - repo: https://github.com/shellcheck-py/shellcheck-py
     rev: v0.8.0.4
     hooks:
