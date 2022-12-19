@@ -10,14 +10,14 @@ A git repository for demo of pre-commit.
 This repo is best used with a Python Virtual Environment. Create it using these commands:
 
 ```bash
-python -m venv venv-demo
+python3 -m venv venv-demo
 source venv-demo/bin/activate
 ```
 
 ### Install Python modules
 
 ```bash
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ### Install Pre-commit Git hook
