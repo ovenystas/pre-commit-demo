@@ -1,7 +1,7 @@
+# pre-commit demo
+
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
-
-# pre-commit demo
 
 A git repository for demo of `pre-commit`.
 
@@ -38,6 +38,9 @@ python3 -m pip install -r requirements.txt
 ```bat
 python -m pip install -r requirements.txt
 ```
+
+**Note:** On Windows it might be needed to choose another path for the pre-commit cache folder.
+Then set environment variable PRE_COMMIT_HOME to the desired folder.
 
 ### Use pre-commit to install the Git hook
 
