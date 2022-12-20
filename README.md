@@ -9,14 +9,23 @@ A git repository for demo of `pre-commit`.
 
 This repo is best used with a `Python Virtual Environment`. Create it using these commands:
 
+On Linux:
+
 ```bash
 python3 -m venv venv-demo
 source venv-demo/bin/activate
 ```
 
-Note: When finished working in a `Python Virtual Environment`, it can be deactivated by simply issuing the command:
+On Windows (Ex: In Git Bash):
 
 ```bash
+python -m venv venv-demo
+venv-demo\Scripts\activate
+```
+
+Note: When finished working in a `Python Virtual Environment`, it can be deactivated by simply issuing the command:
+
+```bash|bat
 deactivate
 ```
 
@@ -26,6 +35,10 @@ deactivate
 python3 -m pip install -r requirements.txt
 ```
 
+```bat
+python -m pip install -r requirements.txt
+```
+
 ### Use pre-commit to install the Git hook
 
 This repo uses pre-commit git hook. Install it inside the `Python Virtual Environment` with:
@@ -33,6 +46,17 @@ This repo uses pre-commit git hook. Install it inside the `Python Virtual Enviro
 ```bash
 pre-commit install
 ```
+
+## Install dependencies
+
+### On Linux
+
+sudo apt update
+sudo apt install clang-format clang-tidy cppcheck
+
+### On Windows
+
+TBD
 
 ## Run pre-commit for all files
 
