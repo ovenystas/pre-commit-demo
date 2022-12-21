@@ -51,12 +51,16 @@ pre-commit install
 
 ### On Linux
 
+```bash
 sudo apt update
 sudo apt install clang-format clang-tidy cppcheck
+```
 
 ### On Windows
 
-TBD
+LLVM - https://github.com/llvm/llvm-project/releases
+
+cppcheck - http://cppcheck.net/
 
 ## Run pre-commit for all files
 
