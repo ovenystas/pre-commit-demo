@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-"""Hello world example.
-"""
+"""Hello world example."""
 
 
 def main():
